@@ -146,7 +146,7 @@ const SortingVisualizer = () => {
          <span
             class="text-3xl font-bold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text bg-300% animate-gradient"
           >
-            Sorting
+            Sortician
           </span>
            <Button 
              onClick={() => setSoundEnabled(!soundEnabled)}
@@ -251,7 +251,7 @@ const SortingVisualizer = () => {
      - Red: The bar is being swapped.
      - Blue: The bar is unsorted.  */}
 
-     
+
         <div className="flex items-end justify-center h-64 gap-1 p-4 pt-0 bg-blur rounded">
           {array.map((value, idx) => (
             <div
